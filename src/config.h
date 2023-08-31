@@ -16,9 +16,9 @@
  * Particle generation Config
  */
 #define CIRCLE_OPACITY_AVERAGE 0.5f
-#define CIRCLE_OPACITY_STDDEV 2.0f 
-#define CIRCLE_RAD_AVERAGE 10.0f 
-#define CIRCLE_RAD_STDDEV 2.0f 
+#define CIRCLE_OPACITY_STDDEV 2.0f
+#define CIRCLE_RAD_AVERAGE 10.0f
+#define CIRCLE_RAD_STDDEV 2.0f
 
 /**
  * Bounds for particle generation
@@ -30,19 +30,11 @@
 
 // Dark2 palette from Colorbrewer
 static const unsigned char base_color_palette[8][3] = {
-    {29, 143, 100},
-    {206, 74, 8},
-    {97, 89, 164},
-    {222, 0, 119},
-    {86, 153, 24},
-    {223, 156, 9},
-    {148, 99, 23},
-    {83, 83, 83}
-};
+    {29, 143, 100}, {206, 74, 8},  {97, 89, 164}, {222, 0, 119},
+    {86, 153, 24},  {223, 156, 9}, {148, 99, 23}, {83, 83, 83}};
 
 // Dependent config, do not change values hereafter
 // f values are to save implicit/explicit casts in the code
 // Some uses may ensure floating point division, be careful if replacing them
-
 
 #endif  // __config_h__

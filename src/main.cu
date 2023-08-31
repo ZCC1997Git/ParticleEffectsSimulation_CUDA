@@ -4,14 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#ifdef _MSC_VER
-#include <WinCon.h>
-#include <windows.h>
-#pragma warning(disable : 4996)
-#include <io.h>
-#else
 #include <unistd.h>
-#endif
 
 #include <algorithm>
 #include <cfloat>

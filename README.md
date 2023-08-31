@@ -1,6 +1,8 @@
-# COMCUDA_particle_assignment
+# Particle Effects simulation
 
-This is the starting code for COM4521/COM6521 assignment. And the openmp code and CUDA code have been added.
+This is  based on code for COM4521/COM6521 assignment.
+
+Modern video games regularly use particle effects to viually represent phenomena such as smoke and fire. Hundreds or thounsands of translucent particles, represented by either coloured shaped or sprite billboards, are renderen each frame with thire overlap blended to create the desired effect.
 
 ## Code implementation
 
